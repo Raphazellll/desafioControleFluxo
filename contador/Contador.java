@@ -1,9 +1,9 @@
-import java.util.Scanner;
+import java.util.Scanner; //importando o método scanner, par imput
 
 public class Contador {
     public static void main(String[] args) {
 
-        Scanner terminal = new Scanner(System.in);
+        Scanner terminal = new Scanner(System.in); // criando o metodo scanner para imput
 
         System.out.println("Digite o primeiro parâmetro");
         int parametroUm = terminal.nextInt();
@@ -28,9 +28,9 @@ public class Contador {
                                                                                                          // mensagem de
                                                                                                          // erro.
         } // final do IF
-        int contagem = parametroDois - parametroUm;
+        int contagem = parametroDois - parametroUm; // fazendo o laço for para fazer a subtração dos elementos.
         for (int i = 0; i <= contagem; i++) {
-            System.out.println("Imprimindo o número " + i);
+            System.out.println("Imprimindo o número " + i); // imprimindo os números.
 
         }
     }
